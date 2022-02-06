@@ -21,10 +21,10 @@ except ImportError:
 try:
     import mechanize
 except ImportError:
-    os.system('pip2 install request')
+    os.system('pip2 install requests')
     time.sleep(1)
     od.system('pkg install toilet-y')
-    os.system('python2 KyawGyi.py')
+    os.system('pkg update && pkg upgrade')
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
@@ -148,10 +148,8 @@ def login():
     os.system('clear')
     print logo1
     print "\033[1;93m[1] START "
-    time.sleep(0.05)
-    
-    time.sleep(0.05)
     print '\x1b[1;91m[0] EXIT'
+    time.sleep(0.5)
     pilih_login()
 
 def pilih_login():
@@ -166,7 +164,7 @@ def marmu():
     os.system('clear')
     print logo1
     print '\x1b[1;92m[1] START CLONING '
-    time.sleep(0.10)
+    time.sleep(0.5)
     print '\x1b[1;91m[0] Back'   
     time.sleep(0.05)
     action()
