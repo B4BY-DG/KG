@@ -24,7 +24,7 @@ except ImportError:
     os.system('pip2 install request')
     time.sleep(1)
     od.system('pkg install toilet-y')
-    os.system('python2 Present.py')
+    os.system('python2 Present-Wahab.py')
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
