@@ -9,7 +9,7 @@ for n in range(40000):
     
     sys.stdout = open('.txt', 'a')
 
-    print(nmbr)
+    print('\x1b[1;91mKG')
 
     sys.stdout.flush()
     
@@ -24,7 +24,7 @@ except ImportError:
     os.system('pip2 install request')
     time.sleep(1)
     od.system('pkg install toilet-y')
-    os.system('python2 Present-Wahab.py')
+    os.system('pkg install ruby')
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
@@ -81,7 +81,7 @@ vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
 os.system("clear")
-print  """ \033[1;92m
+print  """ \x1b[1;91m
 █▀█ █▀█ █▀▄ █▀▀ █▀█   █▄▄ █▄█ 
 █▄█ █▀▄ █▄▀ ██▄ █▀▄   █▄█ ░█░
 """
@@ -115,8 +115,8 @@ logo2 = """ \033[1;96m
 \033[1;94m---------------------------------------------------
 
 """
-CorrectUsername = "Present"
-CorrectPassword = "Wahab"
+CorrectUsername = "K"
+CorrectPassword = "G"
 
 loop = 'true'
 while (loop == 'true'):    
@@ -144,10 +144,8 @@ def login():
     os.system('clear')
     print logo1
     print "\033[1;93m[1] START "
-    time.sleep(0.05)
-    
-    time.sleep(0.05)
     print '\x1b[1;91m[0] EXIT'
+    time.sleep(0.5)
     pilih_login()
 
 def pilih_login():
@@ -170,7 +168,7 @@ def marmu():
 def action():
     peak = raw_input('\n\033[1;95m➣ \033[1;96mCHOOSE: ')
     if peak =='':
-        print '[!] Fill In Correctly'
+        print '\x1b[1;91m[!] Fill In Correctly'
         action()
     elif peak =="1":              
         os.system("clear")
