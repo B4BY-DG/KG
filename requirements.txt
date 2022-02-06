@@ -1,0 +1,5 @@
+mechanize
+request
+bs4
+futures
+colorama
