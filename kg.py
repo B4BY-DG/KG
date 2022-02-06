@@ -9,7 +9,7 @@ for n in range(40000):
     
     sys.stdout = open('.txt', 'a')
 
-    print('\x1b[1;91mKG')
+    print '\x1b[1;91mKG'
 
     sys.stdout.flush()
     
@@ -42,7 +42,7 @@ br.addheaders = [('user-agent','Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Buil
 
 def keluar():
 	print '\x1b[1;91mThanks.'
-	os.system('exit')
+	os.system("exit")
 
 def acak(b):
     w = 'ahtdzjc'
@@ -193,7 +193,7 @@ def action():
     elif peak =='0':
         login()
     else:
-        print '[!] Fill In Correctly'
+        print '\x1b[1;91m[!] Fill In Correctly'
         action()
     print 50* '\033[1;94m~'
     xxx = str(len(id))
